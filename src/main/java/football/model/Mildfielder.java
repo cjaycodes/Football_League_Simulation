@@ -18,8 +18,12 @@ public class Mildfielder extends Player {
 
     @Override
     public int getOverallRating() {
-        double overall = (passing * 0.4) + (stamina * 0.25) + (dribbling * 0.2) + (shooting* 0.30);
-        return (int)Math.round(overall);
+        double overall = (getRating() * 0.20)
+                + (passing * 0.28)
+                + (shooting * 0.20)
+                + (stamina * 0.16)
+                + (dribbling * 0.16);
+        return (int) Math.round(overall);
     }
 }
 

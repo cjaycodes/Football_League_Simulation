@@ -14,10 +14,13 @@ public class Goalkeeper extends Player {
         this.positioning = positioning;
     }
 
-
     @Override
     public int getOverallRating() {
-        double overall = (diving* 0.4) + (handling * 0.25) + (positioning * 0.2) + (reflexes * 0.30);
+        double overall = (getRating() * 0.20)
+                + (diving * 0.28)
+                + (reflexes * 0.20)
+                + (handling * 0.16)
+                + (positioning * 0.16);
         return (int) Math.round(overall);
     }
 }

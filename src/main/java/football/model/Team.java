@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Team {
-    private String name;
-    private List<Player> players;
+    private final String name;
+    private final List<Player> players;
 
     public Team(String name) {
         this.name = name;
@@ -13,8 +13,14 @@ public class Team {
     }
 
     public void addPlayer(Player player) {
+        if (player == null) {
+            throw new IllegalArgumentException("player must not be null");
+        }
         //  Add player to the team's list
         players.add(player);
+    }
+    public List<Player> getPlayers() {
+        return List.copyOf(players);
     }
 
     public int getStrength() {

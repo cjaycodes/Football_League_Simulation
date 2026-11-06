@@ -43,6 +43,7 @@ package football.model;
   }
 
   public abstract int getOverallRating();
+
  }
 
 

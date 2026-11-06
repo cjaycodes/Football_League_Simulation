@@ -17,9 +17,13 @@ public class Striker extends Player{
 
 
     @Override
-        public int getOverallRating() {
-            double overall = (finishing * 0.4) + (pace * 0.25) + (positioning * 0.2) + (shooting * 0.15);
-            return (int) Math.round(overall);
+    public int getOverallRating() {
+        double overall = (getRating() * 0.20)
+                + (finishing * 0.28)
+                + (shooting * 0.20)
+                + (pace * 0.16)
+                + (positioning * 0.16);
+        return (int) Math.round(overall);
     }
 }
 

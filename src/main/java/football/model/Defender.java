@@ -16,8 +16,13 @@ public class Defender extends Player{
 
 
     @Override
-    public int getOverallRating() {
-        double overall = (tackling * 0.4) + (heading * 0.25) + (positioning * 0.2) + (physical * 0.30);
-        return (int) Math.round(overall);
+        public int getOverallRating() {
+            double overall = (getRating() * 0.20)
+                    + (tackling * 0.28)
+                    + (heading * 0.16)
+                    + (positioning * 0.20)
+                    + (physical * 0.16);
+            return (int) Math.round(overall);
+        }
     }
-}
+
