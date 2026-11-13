@@ -1,13 +1,13 @@
 package football.model;
 
-public class Mildfielder extends Player {
+public class Midfielder extends Player {
     private final int passing;
     private final int stamina;
     private final int dribbling;
     private final int shooting;
     ;
 
-    public Mildfielder(String name, int age,int rating,int passing,int stamina,int dribbling, int shooting){
+    public Midfielder(String name, int age,int rating,int passing,int stamina,int dribbling, int shooting){
         super(name, age,rating,Position.Midfielder);
         this.passing = passing;
         this.stamina = stamina;

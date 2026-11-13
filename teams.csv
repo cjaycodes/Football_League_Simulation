@@ -1,0 +1,221 @@
+team,name,age,rating,position,stat1,stat2,stat3,stat4
+Manchester City,Marco Veltri,29,86,GOALKEEPER,85,84,83,86
+Manchester City,Joao Santar,26,87,DEFENDER,88,85,86,87
+Manchester City,Ruben Aldous,27,86,DEFENDER,86,87,85,86
+Manchester City,Kyle Brandt,30,85,DEFENDER,85,84,86,85
+Manchester City,Nico Verhoef,24,85,DEFENDER,84,85,85,84
+Manchester City,Phil Ordway,28,88,MIDFIELDER,89,87,88,86
+Manchester City,Rodrigo Salce,27,87,MIDFIELDER,87,88,86,87
+Manchester City,Bernard Calloway,25,86,MIDFIELDER,86,85,87,85
+Manchester City,Erik Halvorsen,25,89,STRIKER,90,89,88,90
+Manchester City,Julian Marek,24,86,STRIKER,87,88,85,86
+Manchester City,Phil Dunmore,23,84,STRIKER,85,86,83,84
+Arsenal,David Rayner,28,85,GOALKEEPER,84,83,82,85
+Arsenal,William Salvo,25,87,DEFENDER,88,86,87,87
+Arsenal,Gabriel Mauro,27,86,DEFENDER,86,87,85,86
+Arsenal,Ben Whitlock,26,84,DEFENDER,84,83,85,84
+Arsenal,Jurgen Timmer,25,84,DEFENDER,83,84,84,83
+Arsenal,Declan Ricewood,27,87,MIDFIELDER,87,88,86,85
+Arsenal,Martin Odegar,27,87,MIDFIELDER,88,85,87,86
+Arsenal,Mikel Zubira,28,85,MIDFIELDER,85,84,86,84
+Arsenal,Bukayo Sakar,24,88,STRIKER,87,88,86,88
+Arsenal,Gabriel Martino,24,85,STRIKER,85,84,84,85
+Arsenal,Viktor Gyoran,26,85,STRIKER,86,85,84,85
+Liverpool,Alisson Becko,32,86,GOALKEEPER,86,85,84,86
+Liverpool,Virgil Vandam,33,86,DEFENDER,86,86,85,87
+Liverpool,Trent Alexford,27,85,DEFENDER,84,85,85,84
+Liverpool,Andy Robbins,32,83,DEFENDER,83,82,84,83
+Liverpool,Ibrahim Konar,26,84,DEFENDER,84,83,84,84
+Liverpool,Dominic Szobo,25,86,MIDFIELDER,85,86,86,85
+Liverpool,Alexis Macall,26,85,MIDFIELDER,85,84,85,84
+Liverpool,Ryan Graven,23,83,MIDFIELDER,83,82,84,82
+Liverpool,Mo Salahi,33,88,STRIKER,89,89,87,88
+Liverpool,Darwin Nunes,26,84,STRIKER,85,86,83,84
+Liverpool,Cody Gakpor,26,84,STRIKER,84,85,83,84
+Chelsea,Robert Sanchez,28,80,GOALKEEPER,79,78,79,80
+Chelsea,Reece Jamesy,25,82,DEFENDER,82,81,82,82
+Chelsea,Levi Colwell,23,82,DEFENDER,82,81,81,82
+Chelsea,Wesley Fofano,25,81,DEFENDER,81,80,82,81
+Chelsea,Marc Cucuren,27,81,DEFENDER,80,81,81,80
+Chelsea,Moises Caicedo,24,83,MIDFIELDER,83,84,82,82
+Chelsea,Enzo Fernand,25,83,MIDFIELDER,84,82,83,82
+Chelsea,Cole Palmero,24,85,MIDFIELDER,85,83,86,85
+Chelsea,Nicolas Jackal,25,82,STRIKER,83,84,81,82
+Chelsea,Christo Nkunko,27,82,STRIKER,82,83,81,82
+Chelsea,Pedro Netoro,25,81,STRIKER,81,82,80,81
+Manchester United,Andre Onanan,29,79,GOALKEEPER,78,77,78,79
+Manchester United,Lisandro Martel,28,80,DEFENDER,80,79,80,80
+Manchester United,Harry Maguine,33,79,DEFENDER,79,80,78,79
+Manchester United,Diogo Dalton,27,80,DEFENDER,79,79,81,80
+Manchester United,Luke Shawford,31,79,DEFENDER,79,78,79,79
+Manchester United,Bruno Fernandez,31,83,MIDFIELDER,83,82,84,83
+Manchester United,Casemiro Silvano,33,80,MIDFIELDER,80,79,80,79
+Manchester United,Kobbie Mainwood,21,79,MIDFIELDER,79,80,79,78
+Manchester United,Marcus Rashworth,28,81,STRIKER,82,83,80,81
+Manchester United,Rasmus Hojland,23,80,STRIKER,80,81,79,80
+Manchester United,Alejandro Garnachi,22,79,STRIKER,79,80,78,79
+Tottenham Hotspur,Guglielmo Vicari,28,79,GOALKEEPER,78,77,78,79
+Tottenham Hotspur,Cristian Romano,27,81,DEFENDER,81,80,80,81
+Tottenham Hotspur,Micky Vandeven,23,81,DEFENDER,80,81,80,80
+Tottenham Hotspur,Pedro Porto,25,80,DEFENDER,80,79,80,80
+Tottenham Hotspur,Destiny Udogi,22,79,DEFENDER,79,79,79,79
+Tottenham Hotspur,James Maddox,28,81,MIDFIELDER,81,80,82,80
+Tottenham Hotspur,Yves Bissoum,29,79,MIDFIELDER,79,80,78,78
+Tottenham Hotspur,Dejan Kulusen,25,80,MIDFIELDER,80,79,81,79
+Tottenham Hotspur,Son Heungmin,33,83,STRIKER,83,84,82,84
+Tottenham Hotspur,Richarlo Santos,28,80,STRIKER,80,81,79,80
+Tottenham Hotspur,Dominic Solanke,28,80,STRIKER,80,79,80,80
+Newcastle United,Nick Popeson,33,80,GOALKEEPER,79,80,78,80
+Newcastle United,Kieran Trippler,35,79,DEFENDER,78,79,79,78
+Newcastle United,Sven Botmann,26,81,DEFENDER,81,80,81,81
+Newcastle United,Fabian Schaer,34,78,DEFENDER,78,78,77,78
+Newcastle United,Dan Burnley,32,79,DEFENDER,78,79,78,79
+Newcastle United,Bruno Guimar,28,82,MIDFIELDER,82,81,83,81
+Newcastle United,Sandro Tonalli,25,81,MIDFIELDER,81,82,80,80
+Newcastle United,Joelinton Lima,29,79,MIDFIELDER,79,80,79,78
+Newcastle United,Alexander Isakson,26,82,STRIKER,83,82,81,83
+Newcastle United,Anthony Gordo,25,80,STRIKER,80,81,79,80
+Newcastle United,Callum Wilsonn,34,78,STRIKER,78,77,78,78
+Aston Villa,Emi Martinelli,33,80,GOALKEEPER,80,79,79,80
+Aston Villa,Matty Cashley,28,79,DEFENDER,79,78,79,79
+Aston Villa,Ezri Konsay,31,79,DEFENDER,78,79,78,79
+Aston Villa,Pau Torrance,28,79,DEFENDER,79,78,79,78
+Aston Villa,Lucas Digner,32,78,DEFENDER,77,78,78,77
+Aston Villa,Youri Tielmans,29,80,MIDFIELDER,80,79,80,80
+Aston Villa,John McGinley,31,79,MIDFIELDER,79,80,78,78
+Aston Villa,Morgan Rogerson,23,79,MIDFIELDER,78,79,80,78
+Aston Villa,Ollie Watkinson,30,80,STRIKER,80,81,79,80
+Aston Villa,Leon Baileys,28,78,STRIKER,78,79,77,78
+Aston Villa,Jhon Duranne,22,78,STRIKER,78,79,77,78
+Brighton,Jason Steelen,35,75,GOALKEEPER,74,75,73,75
+Brighton,Lewis Dunker,26,76,DEFENDER,76,75,76,76
+Brighton,Jan Hinshelwood,24,76,DEFENDER,75,76,76,75
+Brighton,Pervis Estupin,27,76,DEFENDER,76,75,75,76
+Brighton,Adam Websterly,30,75,DEFENDER,75,74,75,74
+Brighton,Pascal Grossman,29,77,MIDFIELDER,77,76,78,76
+Brighton,Carlos Baleba,22,76,MIDFIELDER,76,77,76,75
+Brighton,Kaoru Mitomo,28,76,MIDFIELDER,75,76,77,75
+Brighton,Joao Pedrazzi,24,77,STRIKER,77,78,76,77
+Brighton,Danny Welbeckk,35,75,STRIKER,75,74,75,75
+Brighton,Yankuba Minteh,22,76,STRIKER,76,78,75,76
+West Ham United,Alphonse Areolo,33,75,GOALKEEPER,75,74,74,75
+West Ham United,Aaron Cresswell,30,75,DEFENDER,75,74,75,74
+West Ham United,Max Kilmann,28,76,DEFENDER,76,75,75,76
+West Ham United,Konstantin Mavro,24,75,DEFENDER,75,74,75,75
+West Ham United,Vladimir Coufel,32,74,DEFENDER,74,74,73,74
+West Ham United,Lucas Paqueto,28,78,MIDFIELDER,78,77,79,77
+West Ham United,Tomas Soucek,30,75,MIDFIELDER,75,76,74,74
+West Ham United,Mateus Fernandez,22,75,MIDFIELDER,74,75,75,74
+West Ham United,Jarrod Bowden,25,77,STRIKER,77,78,76,77
+West Ham United,Niclas Fullkrug,33,75,STRIKER,76,74,75,76
+West Ham United,Michail Antonio,36,73,STRIKER,73,72,73,73
+Crystal Palace,Dean Hendersen,29,76,GOALKEEPER,76,75,75,76
+Crystal Palace,Marc Guehi,25,78,DEFENDER,78,77,78,78
+Crystal Palace,Maxence Lacroix,26,76,DEFENDER,76,75,76,76
+Crystal Palace,Tyrick Mitchel,26,75,DEFENDER,75,74,75,75
+Crystal Palace,Chris Richardson,29,74,DEFENDER,74,73,74,74
+Crystal Palace,Adam Wharton,21,77,MIDFIELDER,77,76,78,76
+Crystal Palace,Eberechi Ezenwa,28,78,MIDFIELDER,78,77,79,77
+Crystal Palace,Will Hughesy,30,74,MIDFIELDER,74,75,73,73
+Crystal Palace,Jean-Philippe Matetto,29,77,STRIKER,77,78,76,77
+Crystal Palace,Ismaila Sarrio,27,76,STRIKER,76,77,75,76
+Crystal Palace,Eddie Nketiah,27,74,STRIKER,74,75,73,74
+Brentford,Mark Flekken,32,75,GOALKEEPER,75,74,74,75
+Brentford,Nathan Colins,25,75,DEFENDER,75,74,75,75
+Brentford,Sepp van den Bergh,25,74,DEFENDER,74,73,74,74
+Brentford,Kristoffer Aajer,27,74,DEFENDER,73,74,74,73
+Brentford,Rico Hendry,29,74,DEFENDER,74,73,73,74
+Brentford,Christian Norgaarden,30,76,MIDFIELDER,76,75,76,75
+Brentford,Mathias Jensenn,29,75,MIDFIELDER,75,74,76,74
+Brentford,Yegor Yarmolik,28,74,MIDFIELDER,73,74,74,73
+Brentford,Bryan Mbeumi,26,77,STRIKER,77,78,76,77
+Brentford,Yoane Wissay,29,75,STRIKER,75,76,74,75
+Brentford,Kevin Schade,24,74,STRIKER,74,76,73,74
+Fulham,Bernd Lenox,33,75,GOALKEEPER,75,74,74,75
+Fulham,Antonee Robbinson,28,75,DEFENDER,75,74,75,74
+Fulham,Calvin Bassey,26,74,DEFENDER,74,74,73,74
+Fulham,Joachim Andersson,29,75,DEFENDER,75,74,74,75
+Fulham,Kenny Tetteh,28,74,DEFENDER,73,74,74,73
+Fulham,Andreas Pereiro,30,76,MIDFIELDER,76,75,77,75
+Fulham,Sander Berge,27,75,MIDFIELDER,75,76,74,74
+Fulham,Emile Smith Rowan,26,75,MIDFIELDER,74,75,76,74
+Fulham,Raul Jimenes,35,74,STRIKER,74,73,74,75
+Fulham,Rodrigo Muniz,25,74,STRIKER,74,75,73,74
+Fulham,Harry Wilsonn,29,73,STRIKER,73,74,72,73
+Everton,Jordan Pickfordd,32,76,GOALKEEPER,76,75,75,76
+Everton,Jarrad Branthwaite,23,77,DEFENDER,77,76,77,77
+Everton,James Tarkowsky,33,74,DEFENDER,74,74,73,74
+Everton,Vitalii Mykolenko,27,74,DEFENDER,73,74,74,73
+Everton,Séamus Colemann,37,72,DEFENDER,72,72,71,72
+Everton,Idrissa Gueyeh,36,74,MIDFIELDER,74,75,73,73
+Everton,James Garner,25,75,MIDFIELDER,75,74,75,74
+Everton,Abdoulaye Doucouré,33,73,MIDFIELDER,73,74,72,72
+Everton,Dominic Calvertt,28,73,STRIKER,73,74,72,73
+Everton,Iliman Ndiaye,26,75,STRIKER,75,76,74,75
+Everton,Beto Betuncal,28,72,STRIKER,72,73,71,72
+Wolverhampton Wanderers,Jose Saa,33,72,GOALKEEPER,72,71,71,72
+Wolverhampton Wanderers,Toti Gomez,27,72,DEFENDER,72,71,72,72
+Wolverhampton Wanderers,Craig Dawsonn,35,71,DEFENDER,71,71,70,71
+Wolverhampton Wanderers,Rayan Ait-Noury,24,72,DEFENDER,72,71,71,72
+Wolverhampton Wanderers,Nelson Semedoh,32,71,DEFENDER,71,70,71,71
+Wolverhampton Wanderers,Joao Gomezz,25,74,MIDFIELDER,74,73,74,73
+Wolverhampton Wanderers,Mario Lemina,32,72,MIDFIELDER,72,73,71,71
+Wolverhampton Wanderers,Andre Trindadi,28,71,MIDFIELDER,71,71,71,70
+Wolverhampton Wanderers,Matheus Cunhaa,27,75,STRIKER,75,76,74,75
+Wolverhampton Wanderers,Hwang Heechan,30,73,STRIKER,73,74,72,73
+Wolverhampton Wanderers,Jorgen Strand Larsen,26,72,STRIKER,72,73,71,72
+Bournemouth,Neto Murara,36,73,GOALKEEPER,73,72,72,73
+Bournemouth,Illia Zabarnyi,23,74,DEFENDER,74,73,74,74
+Bournemouth,Dean Huijsenn,20,74,DEFENDER,74,73,73,74
+Bournemouth,Milos Kerkes,22,73,DEFENDER,73,72,73,73
+Bournemouth,Adam Smithh,34,72,DEFENDER,72,72,71,72
+Bournemouth,Lewis Cookk,29,74,MIDFIELDER,74,73,74,73
+Bournemouth,Ryan Christiey,30,73,MIDFIELDER,73,74,72,72
+Bournemouth,Alex Scottie,22,74,MIDFIELDER,73,74,75,73
+Bournemouth,Antoine Semenyo,26,76,STRIKER,76,77,75,76
+Bournemouth,Evanilson Diaz,26,74,STRIKER,74,75,73,74
+Bournemouth,Justin Kluivertt,26,74,STRIKER,74,75,73,74
+Nottingham Forest,Matz Selss,33,73,GOALKEEPER,73,72,72,73
+Nottingham Forest,Murillo Costaa,23,75,DEFENDER,75,74,75,75
+Nottingham Forest,Nikola Milenkovicc,28,74,DEFENDER,74,73,74,74
+Nottingham Forest,Neco Williamson,24,73,DEFENDER,73,72,73,73
+Nottingham Forest,Ola Aina,29,73,DEFENDER,72,73,73,72
+Nottingham Forest,Morgan Gibbsy,25,75,MIDFIELDER,75,74,75,74
+Nottingham Forest,Elliot Andersonn,23,74,MIDFIELDER,73,74,75,73
+Nottingham Forest,Ibrahim Sangare,28,73,MIDFIELDER,73,74,72,72
+Nottingham Forest,Chris Woodd,34,73,STRIKER,74,72,73,74
+Nottingham Forest,Callum Hudson Oduii,25,74,STRIKER,74,75,73,74
+Nottingham Forest,Taiwo Awoniyii,28,73,STRIKER,73,74,72,73
+Leeds United,Illan Meslierr,26,71,GOALKEEPER,71,70,70,71
+Leeds United,Joe Rodonn,28,72,DEFENDER,72,71,72,72
+Leeds United,Pascal Strujkk,31,71,DEFENDER,71,70,71,71
+Leeds United,Junior Firpoo,29,70,DEFENDER,70,70,69,70
+Leeds United,Jayden Bogledd,24,70,DEFENDER,70,69,70,70
+Leeds United,Ethan Ampaduu,22,72,MIDFIELDER,72,71,72,71
+Leeds United,Ilia Gruevv,25,71,MIDFIELDER,71,72,70,70
+Leeds United,Brenden Aaronsonn,25,72,MIDFIELDER,71,72,73,71
+Leeds United,Dominic Calvertt Lewinn,29,71,STRIKER,71,72,70,71
+Leeds United,Daniel Jamess,27,71,STRIKER,71,73,70,71
+Leeds United,Joel Piroee,22,70,STRIKER,70,71,69,70
+Sunderland,Anthony Patterssen,25,70,GOALKEEPER,70,69,69,70
+Sunderland,Dan Ballardd,26,71,DEFENDER,71,70,71,71
+Sunderland,Luke O'Nienn,31,70,DEFENDER,70,70,69,70
+Sunderland,Trai Hume,23,70,DEFENDER,70,69,70,70
+Sunderland,Reinildo Mandavaa,31,70,DEFENDER,70,69,70,69
+Sunderland,Granit Xhakaa,34,74,MIDFIELDER,74,73,74,73
+Sunderland,Jobe Bellinghamm,20,72,MIDFIELDER,72,71,73,71
+Sunderland,Enzo Le Feee,26,70,MIDFIELDER,70,70,70,69
+Sunderland,Wilson Isidorr,24,71,STRIKER,71,72,70,71
+Sunderland,Brian Brobbeyy,24,71,STRIKER,71,72,70,71
+Sunderland,Chris Rigg,19,69,STRIKER,69,70,68,69
+Burnley,James Trafforrd,23,69,GOALKEEPER,69,68,68,69
+Burnley,Maxime Estevee,23,70,DEFENDER,70,69,70,70
+Burnley,Dara O'Sheaa,28,69,DEFENDER,69,68,69,69
+Burnley,Hjalmar Ekdall,27,69,DEFENDER,69,68,68,69
+Burnley,Connor Robertss,31,68,DEFENDER,68,67,68,68
+Burnley,Josh Cullenn,29,70,MIDFIELDER,70,69,70,69
+Burnley,Lesley Ugochukwuu,21,69,MIDFIELDER,69,69,69,68
+Burnley,Jacob Bruun Larsenn,27,69,MIDFIELDER,68,69,70,68
+Burnley,Lyle Fosterr,25,70,STRIKER,70,71,69,70
+Burnley,Zian Flemmingg,26,69,STRIKER,69,70,68,69
+Burnley,Jay Rodriguezz,36,67,STRIKER,67,66,67,68
