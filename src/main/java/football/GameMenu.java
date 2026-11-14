@@ -175,9 +175,22 @@ public class GameMenu {
         System.out.println("Champions: " + table.get(0).getTeam().getName());
         for (int i = 0; i < table.size(); i++) {
             if (table.get(i).getTeam() == myTeam) {
-                System.out.println("You finished " + (i + 1) + " of " + table.size()
+                System.out.println("You finished " + ordinal(i + 1)
                         + " with " + table.get(i).getPoints() + " points.");
             }
+        }
+    }
+
+    // turns 1 into "1st", 2 into "2nd", 3 into "3rd", 11 into "11th", and so on
+    private String ordinal(int n) {
+        if (n % 100 >= 11 && n % 100 <= 13) {
+            return n + "th";
+        }
+        switch (n % 10) {
+            case 1: return n + "st";
+            case 2: return n + "nd";
+            case 3: return n + "rd";
+            default: return n + "th";
         }
     }
 
@@ -185,7 +198,7 @@ public class GameMenu {
         boolean mine = m.getHomeTeam() == myTeam || m.getAwayTeam() == myTeam;
         System.out.printf("%-25s %d - %d  %-25s%s%n",
                 m.getHomeTeam().getName(), m.getHomeGoals(),
-                m.getAwayGoals(), m.getAwayTeam().getName(), mine ? " <-- you" : "");
+                m.getAwayGoals(), m.getAwayTeam().getName(), mine ? " <--" : "");
     }
 
     private int readInt(String prompt) {
