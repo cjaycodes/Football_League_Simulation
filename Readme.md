@@ -4,7 +4,7 @@
 This is a console football game, a bit like career mode in FC. You choose one of the 20 Premier League teams and play the season one matchday at a time. Each match is simulated using the strength of the players in both teams. The results are saved and the league table updates after every matchday.
 
 ## How to run
-You need Java 17 or newer and Maven. The file teams.csv must be in the project root, next to pom.xml, so run the program from there. Run the class football.Application and follow the menu.
+You need Java 26 and Maven. The file teams.csv must be in the project root, next to pom.xml, so run the program from there. Run the class football.Application and follow the menu.
 
 ## Main features
 - Choose your team from the 20 teams in teams.csv
