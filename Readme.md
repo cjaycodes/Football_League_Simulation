@@ -22,7 +22,7 @@ You need Java 17 or newer and Maven. The file teams.csv must be in the project r
 - League plays one matchday at a time and stores the results.
 - TableRow is one line of the table. StandingsCalculator builds and sorts the table.
 - FileLoader reads teams.csv. InvalidDataException is the custom exception for bad data.
-- GameMenu reads the user's choices, ConsolePrinter prints, and Application connects everything.
+- GameMenu handles the console (reading the user's choices and printing the results), and Application connects everything.
 
 ## Technical decisions
 1. Position is an enum. There are only 4 positions in football and they never change, so I list them once in the code and the compiler rejects anything else. This also makes parsing the CSV safer.
@@ -47,7 +47,7 @@ InvalidDataException is a checked exception that carries the line number. FileLo
 When it starts, Application calls FileLoader to read teams.csv. Each line is: team,name,age,rating,position,stat1,stat2,stat3,stat4. Players are grouped by team name, and the position decides which subclass is created. The stats are in this order: goalkeeper has diving, handling, positioning, reflexes; defender has tackling, heading, physical, positioning; midfielder has passing, stamina, dribbling, shooting; striker has finishing, pace, positioning, shooting.
 
 ## How I applied SOLID
-- Single responsibility: FixtureScheduler makes the calendar, League plays matches and stores results, StandingsCalculator ranks the teams, FileLoader reads the file, GameMenu handles input, ConsolePrinter handles output, and Application only connects the parts.
+- Single responsibility: FixtureScheduler makes the calendar, League plays matches and stores results, StandingsCalculator ranks the teams, FileLoader reads the file, GameMenu only handles the console interaction and contains no game logic, and Application only connects the parts.
 - Open/closed: a new way of simulating is a new MatchSimulator class and League does not change. A new position is a new Player subclass. A new menu option is one register(...) line in GameMenu.
 - Liskov substitution: any Player subclass can be used wherever a Player is expected.
 - Interface segregation: MatchSimulator has only one method.
