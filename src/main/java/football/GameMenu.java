@@ -13,12 +13,13 @@ import java.util.Scanner;
 
 public class GameMenu {
     private final League league;
+    private final StandingsCalculator standings;
     private final Scanner scanner;
-    private final StandingsCalculator standings = new StandingsCalculator();
     private Team myTeam;
 
-    public GameMenu(League league, Scanner scanner) {
+    public GameMenu(League league, StandingsCalculator standings, Scanner scanner) {
         this.league = league;
+        this.standings = standings;
         this.scanner = scanner;
     }
 
