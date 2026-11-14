@@ -32,7 +32,7 @@ class FileLoaderTest {
                 + "Alpha,P2,26,81,DEFENDER,80,80,80,80\n"
                 + "Beta,P3,27,82,MIDFIELDER,80,80,80,80\n"
                 + "Beta,P4,28,83,STRIKER,80,80,80,80\n");
-        List<Team> teams = new football.util.FileLoader().loadTeams(path);
+        List<Team> teams = new FileLoader().loadTeams(path);
         assertEquals(2, teams.size());
         assertEquals("Alpha", teams.get(0).getName());
         assertEquals(2, teams.get(0).getPlayers().size());
@@ -41,7 +41,7 @@ class FileLoaderTest {
     @Test
     void missingFileThrows() {
         assertThrows(InvalidDataException.class,
-                () -> new football.util.FileLoader().loadTeams(dir.resolve("nope.csv").toString()));
+                () -> new FileLoader().loadTeams(dir.resolve("nope.csv").toString()));
     }
 
     @Test
@@ -50,7 +50,7 @@ class FileLoaderTest {
                 + "Alpha,P1,25,80,GOALKEEPER,80,80,80,80\n"
                 + "Alpha,P2,26,81,DEFENDER,80,80\n");
         InvalidDataException e = assertThrows(InvalidDataException.class,
-                () -> new football.util.FileLoader().loadTeams(path));
+                () -> new FileLoader().loadTeams(path));
         assertEquals(3, e.getLineNumber());
     }
 
@@ -58,27 +58,27 @@ class FileLoaderTest {
     void nonNumericValueThrows() throws Exception {
         String path = write(HEADER + "Alpha,P1,abc,80,GOALKEEPER,80,80,80,80\n");
         InvalidDataException e = assertThrows(InvalidDataException.class,
-                () -> new football.util.FileLoader().loadTeams(path));
+                () -> new FileLoader().loadTeams(path));
         assertEquals(2, e.getLineNumber());
     }
 
     @Test
     void unknownPositionThrows() throws Exception {
         String path = write(HEADER + "Alpha,P1,25,80,WINGER,80,80,80,80\n");
-        assertThrows(InvalidDataException.class, () -> new football.util.FileLoader().loadTeams(path));
+        assertThrows(InvalidDataException.class, () -> new FileLoader().loadTeams(path));
     }
 
     @Test
     void ratingOutsideRangeThrows() throws Exception {
         String path = write(HEADER + "Alpha,P1,25,150,GOALKEEPER,80,80,80,80\n");
         InvalidDataException e = assertThrows(InvalidDataException.class,
-                () -> new football.util.FileLoader().loadTeams(path));
+                () -> new FileLoader().loadTeams(path));
         assertEquals(2, e.getLineNumber());
     }
 
     @Test
     void fewerThanTwoTeamsThrows() throws Exception {
         String path = write(HEADER + "Alpha,P1,25,80,GOALKEEPER,80,80,80,80\n");
-        assertThrows(InvalidDataException.class, () -> new football.util.FileLoader().loadTeams(path));
+        assertThrows(InvalidDataException.class, () -> new FileLoader().loadTeams(path));
     }
 }

@@ -5,7 +5,7 @@ import football.model.Team;
 import football.service.FixtureScheduler;
 import football.service.League;
 import football.service.StrengthBasedSimulator;
-import football.util.FileLoader;
+import football.utils.FileLoader;
 
 import java.util.List;
 import java.util.Random;
