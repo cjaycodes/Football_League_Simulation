@@ -1,4 +1,4 @@
-package football.util;
+package football.utils;
 
 import football.exception.InvalidDataException;
 import football.model.*;
